@@ -2,30 +2,30 @@
 #include <cmath>
 using namespace std;
 
-struct kletka                   //§¤¥áì ï á®§¤ « áâàãªâãàã ¤«ï ª«¥â®ª
+struct kletka                   //Â§Â¤Â¥Ã¡Ã¬ Ã¯ Ã¡Â®Â§Â¤Â Â« Ã¡Ã¢Ã Ã£ÂªÃ¢Ã£Ã Ã£ Â¤Â«Ã¯ ÂªÂ«Â¥Ã¢Â®Âª
 {
     char letter;
     int number;
 };
 
 
-void in (kletka &a)           //äã­ªæ¨ï ¤«ï ¢¢®¤  ª«¥â®ª
+void in (kletka &a)           //Ã¤Ã£Â­ÂªÃ¦Â¨Ã¯ Â¤Â«Ã¯ Â¢Â¢Â®Â¤Â  ÂªÂ«Â¥Ã¢Â®Âª
 {
     cin >> a.letter >> a.number;
 }
 
 
-void input (kletka &one, kletka &two)           //äã­ªæ¨ï ¤«ï ¢¢®¤  ª«¥â®ª
+void input (kletka &one, kletka &two)           //Ã¤Ã£Â­ÂªÃ¦Â¨Ã¯ Â¤Â«Ã¯ Â¢Â¢Â®Â¤Â  ÂªÂ«Â¥Ã¢Â®Âª
 {
-    cout << "‚¢¥¤¨â¥ ª®®à¤¨­ âë ¯¥à¢®© ïç©ª¨" << endl;
+    cout << "â€šÂ¢Â¥Â¤Â¨Ã¢Â¥ ÂªÂ®Â®Ã Â¤Â¨Â­Â Ã¢Ã« Â¯Â¥Ã Â¢Â®Â© Ã¯Ã§Â©ÂªÂ¨" << endl;
     in(one);
-    cout << "‚¢¥¤¨â¥ ª®®à¤¨­ âë ¢â®à®© ïç©ª¨" << endl;
+    cout << "â€šÂ¢Â¥Â¤Â¨Ã¢Â¥ ÂªÂ®Â®Ã Â¤Â¨Â­Â Ã¢Ã« Â¢Ã¢Â®Ã Â®Â© Ã¯Ã§Â©ÂªÂ¨" << endl;
     in(two);
 }
 
 
 
-void chek (kletka one, kletka two)                      //¯à®¢¥àª  ­  ª«¥âªã. ¥áâì â ª ï ­  ¤®áª¥ ¨«¨ ­¥â.
+void chek (kletka one, kletka two)                      //Â¯Ã Â®Â¢Â¥Ã ÂªÂ  Â­Â  ÂªÂ«Â¥Ã¢ÂªÃ£. Â¥Ã¡Ã¢Ã¬ Ã¢Â ÂªÂ Ã¯ Â­Â  Â¤Â®Ã¡ÂªÂ¥ Â¨Â«Â¨ Â­Â¥Ã¢.
 {
     char a = one.letter;
     char b = two.letter;
@@ -43,8 +43,8 @@ void chek (kletka one, kletka two)                      //¯à®¢¥àª  ­  ª«¥âªã. ¥á
                 }
             }
         }
-    cout << "‚ë ¢¢¥«¨ ­¥¢¥à­ë¥ §­ ç¥­¨ï";
-    exit (0);                                               //§ ¢¥àè ¥â ¢áî ¯à®£ã
+    cout << "â€šÃ« Â¢Â¢Â¥Â«Â¨ Â­Â¥Â¢Â¥Ã Â­Ã«Â¥ Â§Â­Â Ã§Â¥Â­Â¨Ã¯";
+    exit (0);                                               //Â§Â Â¢Â¥Ã Ã¨Â Â¥Ã¢ Â¢Ã¡Ã® Â¯Ã Â®Â£Ã£
 }
 
 int diagonal (kletka one, kletka two)
@@ -75,7 +75,7 @@ int diagonal (kletka one, kletka two)
         return 0;
     }
 
-   // return (c==d)                     // â®¦¥ á ¬®¥ çâ® ¨ if (c==d) ¨ â.¤.
+   // return (c==d)                     // Ã¢Â®Â¦Â¥ Ã¡Â Â¬Â®Â¥ Ã§Ã¢Â® Â¨ if (c==d) Â¨ Ã¢.Â¤.
 
 };
 
